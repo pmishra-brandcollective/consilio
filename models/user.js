@@ -37,4 +37,11 @@ userSchema
       return json
     }
   })
+
+userSchema.methods.validatePassword = function(password) {
+  return bcrypt.compareSync(password, this.password)
+}
+
+userSchema.plugin(require('mongoose-unique-validator'))
+
 module.exports = mongoose.model('User', userSchema)
