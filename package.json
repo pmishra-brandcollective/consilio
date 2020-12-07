@@ -1,0 +1,33 @@
+{
+  "name": "consilio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendino500/consilio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendino500/consilio/issues"
+  },
+  "homepage": "https://github.com/brendino500/consilio#readme"
+}
