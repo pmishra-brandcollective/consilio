@@ -1,5 +1,6 @@
 const router = require('express').Router()
 const auth = require('../controllers.auth')
+const users = require('../controllers/user')
 
 // Log Related
 router.route('/register')
@@ -9,3 +10,4 @@ router.route('/login')
 
 // Profiles Related
 
+module.exports = router
