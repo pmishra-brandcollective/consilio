@@ -6,7 +6,7 @@ const { unauthorized } = require('../lib/errorMessage')
 async function register(req, res, next) {
   try {
     const user = await User.create(req.body)
-    res.status(201).json({ message: `Bonjour! ${user.firstName}`})
+    res.status(201).json({ message: `Bonjour! ${user.firstName}` })
   } catch (err) {
     next(err)
   }
