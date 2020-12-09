@@ -18,7 +18,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "test",
-    "start": "node index.js"
+    "start": "node index.js",
+    "seed": "node db/seeds.js"
   },
   "repository": {
     "type": "git",
