@@ -1,5 +1,9 @@
+import Navbar from '../src/components/common/Navbar'
+
 function App() {
-  return <div className="App"></div>;
+  return <>
+  <Navbar />
+  </>;
 }
 
 export default App;
