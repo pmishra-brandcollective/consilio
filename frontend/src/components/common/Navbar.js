@@ -70,7 +70,6 @@ export default function Navbar() {
             color="inherit"
             aria-label="open drawer"
           >
-            <MenuIcon />
             <Leftdrawer />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>

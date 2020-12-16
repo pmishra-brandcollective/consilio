@@ -3,6 +3,7 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import Button from "@material-ui/core/Button";
+import MenuIcon from "@material-ui/icons/Menu";
 
 const useStyles = makeStyles({
   list: {
@@ -11,6 +12,10 @@ const useStyles = makeStyles({
   fullList: {
     width: "auto",
   },
+  burger: {
+    color: "white",
+    marginLeft: "-70%"
+  }
 });
 
 export default function LeftDrawer() {
@@ -48,7 +53,9 @@ export default function LeftDrawer() {
   return (
     <div>
       <React.Fragment>
-        <Button onClick={toggleDrawer("left", true)}>{"left"}</Button>
+        <Button onClick={toggleDrawer("left", true)}>
+          <MenuIcon className={classes.burger} />
+        </Button>
         <Drawer
           anchor={"left"}
           open={state["left"]}
