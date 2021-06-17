@@ -2,6 +2,7 @@
     "name": "from-before-import",
     "displayName": "from before import",
     "description": "Start with library and type object later",
+    "publisher": "paritosh149",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.57.0"
